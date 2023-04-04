@@ -1,0 +1,9 @@
+operator:
+  pullPolicy: IfNotPresent
+  replicas: 1
+  image:
+  version:
+
+vault:
+  host:
+  token:
