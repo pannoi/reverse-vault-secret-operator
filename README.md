@@ -8,6 +8,12 @@ The Reverse Vault Secret Operator is going to create monitor kubernetes secret s
 
 ## Installation
 
+```bash
+helm repo add reverse-vault-secret-operator https://pannoi.github.io/reverse-vault-secret-operator-helm/
+helm repo update
+helm upgrade --install reverse-vault-secret-operator reverse-vault-secret-operator/reverse-vault-secret-operator --values values.yaml
+```
+
 You need to set `VAULT_HOST` and `VAULT_TOKEN` initial functionality
 
 ```yaml
